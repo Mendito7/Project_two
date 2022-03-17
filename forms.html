@@ -1,0 +1,237 @@
+
+
+
+<html>
+
+<head>
+
+
+
+  
+    <title>Emil Mendez  |Form</title>
+    <link rel="icon" type="pictures/x-icon" href="images/favicon2.ico"/> 
+    
+
+</head>
+    <style>
+<style>
+   
+    body{        
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    .container{
+        width: 80%;
+        margin: 0 auto; 
+    }
+    .fixed-header, .fixed-footer{
+        width: 100%;
+        position: fixed;        
+        background: skyblue ;
+        padding: 10px 0;
+        color: #8BBEE8FF;
+    }
+    .fixed-header{
+        top: 0;
+    }
+    .fixed-footer{
+        bottom: 0;
+    }    
+    
+    nav a{
+        color: white;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+    }
+    .container p{
+        line-height: 200px; 
+    }
+</style>
+</head>
+
+    <body style="background-color:#A8D5BAFF;">
+    <div class="fixed-header">
+        <div class="container">
+            <nav>
+                <a href="main.html">Home</a>
+                <a href="pictures.html">Pictures</a>
+                <a href="favorites.html">Favorite</a>
+                <a href="schedule.html">Schedule</a>
+                <a href="forms.html">Forms</a>
+            </nav>
+        </div>
+    </div>
+    <div class="container">
+</style>
+        <hr/>
+<body><center>
+<br><br>
+<h1 style="font-size:50px; color:#184A45FF; font-family:Arial;">Form & Widgets:</h1>
+</body></center>
+
+        <hr/>
+
+        <h2>Kindly put your information below:</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" value="John"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <label for="age">How old are you:</label>
+  <input type="number" id="age" name="age" min="1" max="100"><br><br>
+  <label id=email>Emial:</label>
+  <input type=email email id=email><br><br>
+  What is your gender?<br>
+  <input type=radio id=female name=gnd>
+  <label id=female>Female</label><br>
+  <input type=radio id=male name=gnd>
+  <label id=male>Male</label><br>
+  <input type=radio id=na name=gnd>
+  <label id=na>Prefer not to say</label><br><br>
+Which district are you from?
+<select name="District">
+<option value="Belize">Belize</option>
+<option value="Cayo">Cayo</option>
+<option value="Corozal">Corozal</option>
+<option value="Orange Walk">Orange Walk</option>
+<option value="Stann Creek">Stann Creek</option>
+<option value="Toledo">Toledo</option>
+<option value="None Belizean">None Belizean</option>
+</select><br><br>
+Favorite things to explore in Belize:<br><br>
+<input type=checkbox id=cave name=ff>
+<label id=cave>Caves</label>
+<input type=checkbox id=cayes name=ff>
+<label id=cave>Cayes</label>
+<input type=checkbox id=hiking name=ff>
+<label id=cave>Hiking Mountains</label>
+<input type=checkbox id=Seaside name=ff>
+<label id=cave>Placencia/Hopkins</label>
+<input type=checkbox id=ruins name=ff>
+<label id=cave>Mayan Ruins</label><br><br>
+<textarea rows=10 cols=75>Best experience in Belize</textarea><br><br>
+  <input type="reset" value="Reset">
+  <input type="submit" value="Submit">
+  <button type="bottun" onclick="alert('Hope you had agreat day!')">Surprised when clicked!</button>
+
+</form>    
+
+
+
+
+
+        
+
+<hr>
+<h2>Map of Belize:</h2>
+<h4>You can scroll on it*</h4>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1951560.0209152948!2d-89.44147673822954!3d17.18768227633291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5c5b3ec112faf9%3A0xf64a8a4d3f1ee34e!2sBelize!5e0!3m2!1sen!2sbz!4v1645854106049!5m2!1sen!2sbz" width="565" height="400" style="border:8;" allowfullscreen="" loading="lazy"></iframe>
+
+
+<style>
+aside {
+  width: 30%;
+  padding-left:0px;
+  margin-left: 0px;
+  float: right;
+  
+  
+}
+</style>
+
+<aside>
+<h4>Did you knew this things of Belize?</h4>
+<div style="text-align: right;"><iframe width="460" height="315" src="https://www.youtube.com/embed/3MrYk3kCUGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+ 
+</aside>
+
+
+
+<h2 align="Left">Check the Belize City Council page for more info:</h4>
+    <iframe 
+    src="https://www.belizecitycouncil.org/departments.php?dep_id=12" height="300" width="565" style="border: 4px solid green"> 
+    </iframe>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2><center>World Cup Start Date:</center></h2>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+p {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
+</style>
+</head>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var countDownDate = new Date("Nov 21, 2022 15:37:25").getTime();
+
+var x = setInterval(function() {
+
+ 
+  var now = new Date().getTime();
+    
+  
+  var distance = countDownDate - now;
+    
+
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+ 
+  document.getElementById("demo").innerHTML = days + " days " + hours + " hours "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "Time to enjoy World Cup";
+  }
+}, 1000);
+</script>
+
+
+   
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
